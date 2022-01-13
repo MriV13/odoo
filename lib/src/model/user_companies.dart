@@ -6,7 +6,7 @@ part 'user_companies.g.dart';
 
 @JsonSerializable()
 class UserCompanies {
-  final List<dynamic> current_company;
+  final int current_company;
   final List<List<dynamic>> allowed_companies;
 
   UserCompanies(
