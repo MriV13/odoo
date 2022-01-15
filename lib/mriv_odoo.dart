@@ -1,4 +1,4 @@
-library odoo;
+library mriv_odoo;
 
 export 'src/model/connection.dart';
 export 'src/model/credential.dart';
