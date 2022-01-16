@@ -80,13 +80,13 @@ class SessionController {
   }
 }
 
-class YaoOdooService extends YaoService
+class OdooService extends YaoService
     implements IDatabaseOperation, IConnection {
   final Connection connection;
   late final Dio dio;
   late final SessionController session;
 
-  YaoOdooService(this.connection) {
+  OdooService(this.connection) {
     // if (kIsWeb) {
     //   this._dio = DioForBrowser(BaseOptions(
     //       baseUrl: connection.url.toString(),
@@ -302,7 +302,7 @@ class YaoOdooService extends YaoService
   }
 
   @override
-  Future<YaoOdooService> run() async {
+  Future<OdooService> run() async {
     return this;
   }
 }
