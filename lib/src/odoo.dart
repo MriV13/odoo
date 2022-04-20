@@ -4,7 +4,7 @@ import 'dart:convert';
 // import 'package:dio/adapter_browser.dart';
 // import 'package:dio/browser_imp.dart';
 import 'package:universal_io/io.dart';
-import 'package:yao_core/yao_core.dart';
+import 'package:mriv_mvcs_core/mriv_mvcs_core.dart';
 import 'dart:developer' as developer;
 
 import 'model/connection.dart';
