@@ -1,8 +1,9 @@
 name: mriv_odoo
 description: odoo api using endpoint /web/dataset/call_kw
 version: 0.0.2+11
-homepage: "https://aikosia.com"
-repository: "https://github.com/MriV13/odoo"
+homepage: "https://github.com/MriV13"
+repository: "https://github.com/MriV13/odoo-flutter"
+publish_to: none
 
 environment:
   sdk: ">=2.12.0 <3.0.0"
@@ -15,9 +16,9 @@ dependencies:
   json_annotation: ^4.0.1
   universal_io: ^2.0.4
   uuid: ^3.0.4
-  yao_core: 
+  mriv_mvcs_core: 
     git:
-      url: git://github.com/aikosiadotcom/yao_core.git
+      url: https://github.com/MriV13/mriv-odoo-core.git
       ref: master
 
 dev_dependencies:

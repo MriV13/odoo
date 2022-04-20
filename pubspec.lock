@@ -326,6 +326,15 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.0.0"
+  mriv_mvcs_core:
+    dependency: "direct main"
+    description:
+      path: "."
+      ref: master
+      resolved-ref: "7f9a04ad1b0de94d7e007a450cd751cfa3ff053d"
+      url: "https://github.com/MriV13/mriv-odoo-core.git"
+    source: git
+    version: "0.0.2+26"
   package_config:
     dependency: transitive
     description:
@@ -499,15 +508,6 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "3.1.0"
-  yao_core:
-    dependency: "direct main"
-    description:
-      path: "."
-      ref: master
-      resolved-ref: "5293e1b15e4b6adbbf4e21c7116ed4388cb4d330"
-      url: "git://github.com/aikosiadotcom/yao_core.git"
-    source: git
-    version: "0.0.2+26"
 sdks:
   dart: ">=2.13.0 <3.0.0"
   flutter: ">=1.17.0"
